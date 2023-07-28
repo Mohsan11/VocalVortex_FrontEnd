@@ -65,10 +65,9 @@ class VocalVortex extends Component {
       alert("Please add some text");
       return;
     }
-    console.log(this.state.text);
     this.setState({ data: "Loading..." });
     this.setState({ loading: true });
-    fetch("http://localhost:3001/summary", {
+    fetch("https://vocalvortexbackend.mohsanali3.repl.co/summary", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
