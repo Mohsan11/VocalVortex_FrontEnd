@@ -1,0 +1,39 @@
+/* AppGuide.css */
+
+.guide-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  h3 {
+    color: #444;
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  ol {
+    margin-left: 30px;
+  }
+  
+  li {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  strong {
+    color: #333;
+  }
+  
